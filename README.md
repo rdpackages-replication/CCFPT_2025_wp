@@ -6,7 +6,7 @@ This work was supported in part by the National Science Foundation through grant
 
 https://rdpackages.github.io/replication
 
-## Empirical Application: Head Start Data
+## Empirical Application: Brazil Close Elections
 
 - Source: Akhtari, Moreira and Trucco (2022): [Political Turnover, Bureaucratic Turnover, and the Quality of Public Services](https://doi.org/10.1257/aer.20171867), _American Economic Review_ 112(2): 442–493.
 
