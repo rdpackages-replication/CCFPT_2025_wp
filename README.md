@@ -10,7 +10,7 @@ https://rdpackages.github.io/replication
 
 - Source: Akhtari, Moreira and Trucco (2022): [Political Turnover, Bureaucratic Turnover, and the Quality of Public Services](https://doi.org/10.1257/aer.20171867), _American Economic Review_ 112(2): 442–493.
 
-- Dataset: [csv](brazil.csv) | [dta](brazil.dta)
+- Dataset: [csv](AMT_2022_AER.csv) | [dta](AMT_2022_AER.dta)
 
 - R implementation: [main](CCFT_2025_HTERD.R)
 
