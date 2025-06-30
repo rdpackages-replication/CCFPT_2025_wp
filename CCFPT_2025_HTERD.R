@@ -13,7 +13,7 @@
 
 
 rm(list=ls())
-install.packages("rdhte")
+# install.packages("rdhte")
 library(rdhte)
 library(Hmisc)
 sessionInfo()
@@ -28,7 +28,7 @@ Y <- data$expthisschl_lessthan2_DPB
 X <- -1*data$pX
 cluster = data$COD_MUNICIPIO
 W <- data$medianincome2000
-trunc <- t1_1 <- quantile(W, na.rm=TRUE, p=(0.99))
+trunc <- quantile(W, na.rm=TRUE, p=(0.99))
 W[W>=trunc] <- trunc
 W <- W/100
 W2 <- W^2
@@ -191,6 +191,7 @@ pdf(file = "CCFPT_2025_HTERD_Figure1b.pdf",  width = 4, height = 6)
 dev.off()
 
 
+# Deciles
 pdf(file = "CCFPT_2025_HTERD_Figure1c.pdf",  width = 4, height = 6)
   curve(rd_linear$Estimate[1] + rd_linear$Estimate[2]*x, from=min(W, na.rm=TRUE), to=max(W, na.rm=TRUE), xlab="Income", ylab=NA, yaxt = "n", ylim=c(-0.75, 0.75), cex.axis=0.85)
   W.grid <- seq(from=min(W, na.rm=TRUE), to=max(W, na.rm=TRUE), length.out=500)
